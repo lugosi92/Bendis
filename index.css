@@ -1,0 +1,49 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item{
+    display: flex;
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;      /* Centra verticalmente */
+    height: 100px;  
+}
+
+
+.categoria{
+    background-color: transparent;
+    border: none;
+    color: white;
+    vertical-align: middle;
+}
+
+/* Barra del buscador */
+.buscador {
+    border: none;      
+    background: none;          
+    border-bottom: 2px solid #000; 
+    display: flex;
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;      /* Centra verticalmente */
+    height: 100px;            
+}
+
