@@ -19,26 +19,20 @@ header {
     z-index: 1000;
     background-color: transparent;
 }
-
-body{
-    height: 100%;
-    width: 100%;
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
     font-family: 'Babe', sans-serif;
     font-weight: bold;
     overflow-x: hidden;
-   
-    
+    background: linear-gradient(-60deg, #a8e6ff 50%, white 50%);
+    border-right: 10px solid rgba(0, 0, 0, 0.1);
 }
 
 
-.pag1, .pag2, .pag3, .pag4 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 50px 10%;
-}
+
 /* -------------------------------------------------CABECERA------------------------------------------------ */
 /* Palabras */
 .menu {
@@ -97,6 +91,7 @@ body{
 }
 /* -------------------------------------------------PAGINA 1------------------------------------------------ */
 
+
 /* PIE */
 
 .centro{
@@ -117,24 +112,43 @@ body{
     margin-top: 5%;
 } 
 
+
+
 /* -------------------------------------------------PAGINA 2------------------------------------------------ */
 
 /* OCUPAR 50 Y 50 */
 
 .pag2{
-    background: linear-gradient(to right, #a8e6ff 50%, white 50%);
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 100hv;
+    height: 100hv;
     padding: 1%;
+    background: linear-gradient(60deg, #a8e6ff 50%, white 50%);
 }
 
+
+/*------------CONENEDOR --------------*/
 .tituloPresentacion {
     width: 50%;
     padding: 10px; 
     text-align: center;
 }
 
+.tituloPresentacion h1{
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-top: 15%;
+    margin-bottom: 30%;
+    margin-right: 15%;
+}
+
+.tituloPresentacion img{
+    float: left;
+    width: 50%; 
+}
+
+/*------------CONENEDOR --------------*/
 .presentacionText {
     width: 50%; 
     padding: 10px; 
@@ -142,9 +156,12 @@ body{
 }
 
 .presentacionText h1 {
-    font-size: 2em;
+    font-size: 3.5em;
     font-weight: bold;
-    margin-bottom: 50%; /* Agrega espacio debajo del título */
+    margin-top: 15%;
+    margin-bottom: 30%;
+    margin-right: 15%;
+    
 }
 
 .presentacionText h2 {
@@ -155,7 +172,8 @@ body{
 }
 
 .presentacionText p {
-    line-height: 1.5;
+    font-size: ;
+    margin-left: 20%;
     margin-bottom: 20px; /* Espacio debajo del párrafo */
 }
 
@@ -170,3 +188,5 @@ body{
 }
 
 
+
+/*------------CONENEDOR --------------*/
