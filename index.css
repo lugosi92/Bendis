@@ -216,9 +216,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
     width: 100vw;
     padding: 50px 20px;
-    background: linear-gradient(-60deg, #a8e6ff 50%, white 50%);
+    background: linear-gradient(-50deg, #a8e6ff 50%, white 50%);
 }
 
 /* TITULO */
@@ -226,15 +227,18 @@ body {
     font-size: 3em;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 20px;
+    
 }
 
 .sobreNosotros p {
-    width: 70%;
+    position: relative;
+    margin-right: 10%;
+    margin-left: 10%;
     text-align: center;
     font-size: 1.2em;
     line-height: 1.5;
     color: #333;
+    margin-bottom: 5%;
 }
 
 /* CONTENEDOR DE CUADROS */
@@ -254,6 +258,7 @@ body {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
     position: relative;
+    margin-bottom: 10%;
 }
 
 .cuadro h2 {
@@ -295,17 +300,3 @@ body {
     margin-right: 10px;
 }
 
-@media (max-width: 768px) {
-    .nosotrosCuadro {
-        flex-direction: column;
-        align-items: center;
-    }
-    .cuadro {
-        width: 90%;
-    }
-    .informacionContato {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-}
