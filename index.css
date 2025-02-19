@@ -123,7 +123,7 @@ body {
     display: flex;
     justify-content: space-around;
     width: 100vw;
-    height: 100hv;
+    height: 100vh;
     padding: 1%;
     background: linear-gradient(60deg, #a8e6ff 50%, white 50%);
 }
@@ -146,18 +146,20 @@ body {
 }
 
 .tituloPresentacion img{
-    position: relative; /* Cambiar de float a relative */
-    left: -30%;
-    width: 70%;
+    position: relative; 
+    margin-right: 15%;
+    margin-top: -10%;
     z-index: 10;
+    width: 50%;
+ 
 }
 
 .circulo-1 {
     position: absolute;
-    bottom: 0;
-    left: -30%; 
-    width: 50%; 
-    height: 50%;
+    bottom: 10%;
+    left: 10%; 
+    height: 25%;
+    width: 25%;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
     z-index: 1;
@@ -204,11 +206,6 @@ body {
 }
 
 
-
-/*------------CONENEDOR --------------*/
-
-
-
 /* ------------------- PAGINA 3 (SOBRE NOSOTROS) ------------------- */
 .pag3 {
     position: relative;
@@ -219,7 +216,7 @@ body {
     height: 100vh;
     width: 100vw;
     padding: 50px 20px;
-    background: linear-gradient(-50deg, #a8e6ff 50%, white 50%);
+    background: linear-gradient(-60deg, #a8e6ff 50%, white 50%);
 }
 
 /* TITULO */
@@ -300,3 +297,10 @@ body {
     margin-right: 10px;
 }
 
+.footer{
+    background-color: #555;
+    
+}
+footer p{
+    color: white;
+}
